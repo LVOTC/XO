@@ -1,0 +1,33 @@
+body {
+  background-color: #76ffc8; }
+  body .game-container {
+    background-color: rgba(227, 101, 91, 0.83);
+    width: 600px;
+    height: 600px;
+    margin-left: 50%;
+    position: absolute;
+    left: -300px;
+    top: 80px; }
+    body .game-container .row .squ {
+      float: left;
+      border: 5px solid #76ffc8;
+      width: 190px;
+      height: 190px;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 200px;
+      text-align: center;
+      line-height: 190px; }
+  body .gameHover {
+    position: absolute;
+    display: none;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 200px; }
+
+/*# sourceMappingURL=style.css.map */
